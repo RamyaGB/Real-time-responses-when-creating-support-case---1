@@ -1,0 +1,296 @@
+.App {
+  background-color: rgb(232,232,232);
+
+}
+html {
+  background-color: rgb(232,232,232);
+
+}
+html
+{
+  line-height: 20px;
+  font-size: 14px;
+}
+
+#service1{
+  width:150%;
+  height:auto;
+  background-color: white;
+}
+#scroll {
+   overflow-y:auto;
+   height:140px;
+   width:500px;
+   padding:4%;
+   border: 2px solid rgb(232,232,232);
+ }
+ #scroll2 {
+    overflow-y:auto;
+    height:140px;
+    width:500px;
+    padding:4%;
+  }
+ #textbox
+ {
+   height:300px;
+   width:547px;
+   background-color: white;
+   font-size:14px;
+ }
+ #textbox2
+{
+  height:180px;
+  width:500%;
+  background-color: white;
+}
+ #service2{
+  width:320%;
+  height:auto;
+  background-color: white;
+}
+
+ #textbox1
+ {
+   height:180px;
+   width:590%;
+   background-color: white;
+ }
+.container_1
+{
+  font-size:28px;
+  margin-left:1.5%;
+  margin-top:-1%;
+  padding-left:.5%;
+  margin-bottom:3%;
+}
+.container_2
+{
+  margin-top: -3%;
+  display:flex;
+}
+.container_5
+{
+  margin-top: -14%;
+}
+.container_4 {
+  max-width:50%;
+  position:absolute;
+  text-align: justify;
+}
+.container_7 {
+margin-top: -18%;
+float:right;
+margin-right:-50%;
+}
+.c7 {
+float:right;
+margin-right:-49%;
+}
+.c1
+{
+  font-size:14px;
+}
+.c4
+{
+  max-width: 78%;
+  margin-left:1%;
+}
+.c3
+{
+  display: flex;
+}
+.c41
+{
+  width: 120%;
+  display:flex;
+  margin-top:270%;
+  margin-left:210%;
+
+}
+.c42
+{
+  width: 120%;
+  display:flex;
+  margin-left:478%;
+
+}
+
+.c43
+{
+  width: 120%;
+  display:flex;
+  margin-left:384%;
+  margin-top:3%;
+}
+.radio
+{
+  margin:4%;
+}
+.container_3 {
+  position:absolute;
+  margin-left:0;
+  margin-top:5%;
+}
+.container_11
+{font-size:30px;
+  margin-left:0.3%;
+  padding:1%;
+}
+.container_21
+{
+  margin-top: -3%;
+  display:flex;
+}
+
+.container_7 {
+margin-top: -18%;
+float:right;
+margin-right:-50%;
+}
+
+
+.c31
+{
+  display: flex;
+}
+.container_31 {
+  position:absolute;
+  margin-left:0;
+}
+a:link
+{
+  color: black;
+}
+a:visited
+{
+  color:black;
+}
+input[type=text] {
+ width: 570%;
+ padding: 10px 10px;
+ margin-top: 8px;
+ display: inline-block;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+ box-sizing: border-box;
+}
+input[type=submit] {
+  width: 50%;
+  background-color: rgb(255,140,0);
+  color: white;
+  padding: 10px 0px;
+  margin: 8px 3px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+}
+input[type=submit]:hover {
+  background-color: rgb(255,140,0);
+}
+#cancel{
+
+    background-color: white;
+  color: black;
+}
+#cancel:hover
+{
+  background-color:rgb(240,240,240);
+}
+  .App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.react-autosuggest__container {
+  position: relative;
+  max-height:0px;
+  width:57%;
+  background-color:white;
+}
+
+.react-autosuggest__input {
+  width: 10px;
+  padding: 10px;
+  font-weight: 300;
+  font-size: 13px;
+  background-color: #fff;
+}
+
+.react-autosuggest__input::placeholder {
+  color: #777;
+  opacity: 1;
+}
+
+.react-autosuggest__input--focused {
+  outline: none;
+  background-color: #;
+}
+
+.react-autosuggest__input--open {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.react-autosuggest__suggestions-list {
+  display:none;
+  padding: 0;
+  background-color: white;
+  list-style-type: none;
+  width: 46%;
+  border: 1px solid #eee;
+}
+
+.react-autosuggest__suggestion {
+  cursor: pointer;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  width: 97%;
+  white-space: nowrap;
+}
+
+.react-autosuggest__suggestion--highlighted {
+  background-color: #ddd;
+}
+
+.result {
+  width:80%;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 80%;
+}
+
+.shortCode {
+  background-color: #4696ec;
+  color: #fff;
+  padding: 4px;
+  border-radius: 2px;
+}
+
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
